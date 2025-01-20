@@ -1,5 +1,19 @@
+
 <svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
-  <text x="10" y="70" font-family="Arial, Helvetica, sans-serif" font-size="60" fill="blue">
+  <defs>
+    <style type="text/css">
+      @font-face {
+        font-family: 'Pacifico';
+        src: url('https://fonts.gstatic.com/s/pacifico/v21/FwZY7-Qmy14u9lezJ-6H6Mk.woff2') format('woff2');
+      }
+    </style>
+    <linearGradient id="coolGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A237E; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0D47A1; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <text x="10" y="70" font-family="'Pacifico', cursive" font-size="60" fill="url(#coolGradient)">
     Web3Mind
   </text>
 </svg>
+
